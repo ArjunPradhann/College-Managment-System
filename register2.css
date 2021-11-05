@@ -1,0 +1,39 @@
+<style>
+div.sticky {
+
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+
+body{
+width: auto;
+height: auto;
+top:5%;
+left: 33%;
+font-family:sans-serif;
+background-image: url(123.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+}
+.table{
+ text-align:bottom;
+ }
+ .h1{
+   border: 0;
+ background: none;
+ display: block;
+ margin: 20px auto;
+ text-align: center;
+ border: 2px solid #3498db;
+ padding: 14px 10px;
+ width: 200px;
+ outline: none;
+ color: white;
+ border-radius: 24px;
+ transitition: 0.25s;
+ }
+</style>

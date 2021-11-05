@@ -1,0 +1,52 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-color: burlywood;
+}
+
+.box input[type = "Submit"]{
+  border:0;
+  background: #262626;
+  display: block;
+  margin-top: 20px;
+  margin-left: 300px;
+  text-align: center;
+  border: 2px solid #262626;
+  padding: 14px 200px;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+  cursor: pointer;
+  box-shadow: 1px 1px 20px rgba(0,0,0,0.5) ;
+}
+.box input[type = "Submit"]:hover
+{
+  background-color: #da4357;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,1);
+  transform: scale(1.1);
+  z-index: 1;
+  border-radius: 25px;
+}
+.box2 input[type = "Submit"]{
+  border:0;
+  background: #262626;
+  display: block;
+  margin-top: 200px;
+  margin-left: 1000px;
+  text-align: center;
+  border: 2px solid #262626;
+  padding: 14px 100px;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+  cursor: pointer;
+  box-shadow: 1px 1px 20px rgba(0,0,0,0.5) ;
+}
+.box2 input[type = "Submit"]:hover
+{
+  background-color: #da4357;
+  color: #fff;
+  border-radius: 25px;
+}
